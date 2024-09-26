@@ -12,7 +12,9 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from version control
-                git 'https://github.com/oryasayed/Jenkins_Terraform_installation.git'
+                git branch: 'main',
+                    
+                url: 'https://github.com/oryasayed/Jenkins_Terraform_installation.git'
             }
         }
 
