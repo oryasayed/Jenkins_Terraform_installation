@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from version control
-                git 'https://github.com/your-repo/terraform-ec2.git'
+                git 'https://github.com/oryasayed/Jenkins_Terraform_installation.git'
             }
         }
 
